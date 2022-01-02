@@ -1,0 +1,36 @@
+:root {
+    /* font size */
+    --h1: 46px;
+    --h1-sm: 35px;
+    --h2: 21px;
+    --h2-sm: 28px;
+
+    --p: 25px;
+    --p-sm: 20px;
+
+    /* color */
+    --black:#333333;
+    --orange:#ff733c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--black);
+    font-family: 'IBM Plex Sans', sans-serif;}
+
+h1 {
+    font-size: var(--h1);
+    font-weight: 600;
+}
+
+h2 {
+    font-size: var(--h2);
+    font-weight: 600;
+
+} 
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
