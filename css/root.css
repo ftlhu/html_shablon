@@ -34,3 +34,20 @@ h2 {
 h3 {
     font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (max-width:420px) {
+    h1 {
+        font-size: var(--h1-sm);
+        font-weight: 600;
+    }
+    
+    h2 {
+        font-size: var(--h2-sm);
+        font-weight: 600;
+    
+    } 
+    
+    h3 {
+        font-family: 'Roboto', sans-serif;
+    }
+}
